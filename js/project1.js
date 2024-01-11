@@ -1,7 +1,7 @@
 const buttons = document.querySelectorAll(".button");
 const container = document.querySelector(".color-switcher");
 
-buttons.forEach((button) => {
+/* buttons.forEach((button) => {
     button.addEventListener("click", (e) => {
         if (e.target.id === "gray") {
             container.style.backgroundColor = "gray";
@@ -16,5 +16,12 @@ buttons.forEach((button) => {
             container.style.backgroundColor = "yello";
         }
 
-    })
-})
+    });
+}); */
+
+
+buttons.forEach((button) => {
+    button.addEventListener("click", (e) => {
+        container.style.backgroundColor = e.target.id;
+    });
+});
