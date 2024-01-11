@@ -6,10 +6,10 @@
   display: inline-block;
 }
 
-.button:nth-child(0) {
+.button:nth-child(1) {
   background-color: gray;
 }
-.button:nth-child(1) {
+.button:nth-child(2) {
   background-color: pink;
 }
 .button:nth-child(3) {

@@ -24,3 +24,7 @@
 .flex-column {
   flex-direction: column;
 }
+
+.gap {
+  gap: 10px;
+}
