@@ -26,13 +26,13 @@
 <h1>BMI Calculator</h1>
 <div  class=" bg-white  px-15 py-10">
   <form class="flex flex-column gap-10">
-    <p class="font-20">Height in cm <input type="text" placeholder="Height" required class="py-10"></p>
-    <p class="font-20">Weight in Kg <input type="text" placeholder="Weight" required class="py-10"></p>
-   <p><button type="button" class="w-full btn-green" >Calculate </button></p>
+    <p class="font-20">Height in cm <input type="text" id="height" placeholder="Height"   class="py-10"></p>
+    <p class="font-20">Weight in Kg <input type="text" id="weight" placeholder="Weight"   class="py-10"></p>
+   <p><button type="submit" class="w-full btn-green" >Calculate </button></p>
   </form>
 </div>
-
-<div class="text-center flex flex-column gap-10">
+<div><h3  id="result"> </h3></div>
+<div class="text-center flex flex-column gap-10 weight-guide">
   <h3>BMI Weight Guide</h3>
   <p class="bolder">Under Weight =  less than 18.5</p>
   <p class="bolder">Normal =   18.5 - 24.9</p>
@@ -42,5 +42,6 @@
 
 
   </body>
-  <script src="./js/project1.js" s></script>
+  <script src="./js/project1.js" ></script>
+  <script src="./js/project2.js" ></script>
 </html>
