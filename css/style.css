@@ -25,6 +25,64 @@
   flex-direction: column;
 }
 
-.gap {
+.gap-10 {
   gap: 10px;
+}
+.gap-20 {
+  gap: 20px;
+}
+
+.py-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.btn-green {
+  background-color: rgb(67, 255, 67);
+  padding: 10px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.line-h-20 {
+  line-height: 20px;
+}
+
+.bolder {
+  font-weight: bold;
 }

@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="./css/project1.css" />
   </head>
   <body>
-    <div class="wrapper color-switcher flex flex-column align-center justify-center gap">
+
+   <!-- 1- project 1 : color switcher -->
+    <div class="wrapper color-switcher flex flex-column align-center justify-center gap-10">
       <h1>Color Switcher</h1>
       <span class="btn-container">
         <span class="button" id="gray"></span>
@@ -17,6 +19,28 @@
         <span class="button" id="yellow"></span>
       </div>
     </div>
+
+<!--     2 - project 2 : BMI Calculator  -->
+    
+<div class="wrapper flex  flex-column  align-center gap-20 py-15 bg-gray justify-center">
+<h1>BMI Calculator</h1>
+<div  class=" bg-white  px-15 py-10">
+  <form class="flex flex-column gap-10">
+    <p class="font-20">Height in cm <input type="text" placeholder="Height" required class="py-10"></p>
+    <p class="font-20">Weight in Kg <input type="text" placeholder="Weight" required class="py-10"></p>
+   <p><button type="button" class="w-full btn-green" >Calculate </button></p>
+  </form>
+</div>
+
+<div class="text-center flex flex-column gap-10">
+  <h3>BMI Weight Guide</h3>
+  <p class="bolder">Under Weight =  less than 18.5</p>
+  <p class="bolder">Normal =   18.5 - 24.9</p>
+  <p class="bolder">Over Weight = greater than 24.9</p>
+</div>
+</div>
+
+
   </body>
   <script src="./js/project1.js" s></script>
 </html>
