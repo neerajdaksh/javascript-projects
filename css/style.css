@@ -32,6 +32,7 @@
   gap: 20px;
 }
 
+/* padding classes */
 .py-15 {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -46,14 +47,6 @@
   padding-bottom: 10px;
 }
 
-.bg-gray {
-  background-color: gray;
-}
-
-.bg-white {
-  background-color: white;
-}
-
 .gap-20 {
   gap: 20px;
 }
@@ -62,27 +55,39 @@
   width: 100%;
 }
 
-.btn-green {
-  background-color: rgb(67, 255, 67);
-  padding: 10px;
-  border: none;
+/* colors classes */
+.text-white {
   color: white;
-  font-weight: 600;
-  cursor: pointer;
 }
 
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+/* text formating classes*/
+.bolder {
+  font-weight: bold;
+}
+.line-h-20 {
+  line-height: 20px;
+}
+.text-center {
+  text-align: center;
+}
 .font-20 {
   font-size: 20px;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.line-h-20 {
-  line-height: 20px;
-}
-
-.bolder {
-  font-weight: bold;
+/* button classes */
+.btn-green {
+  background-color: rgb(67, 255, 67);
+  padding: 10px;
+  border: 1px solid white;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
 }
